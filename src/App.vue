@@ -1,11 +1,33 @@
-<script setup></script>
-
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <div id="menu-frame">
+    <h1>Menu</h1>
+    <ol >
+      <h4><li><food-item /></li></h4>
+      <h4><li><food-item /></li></h4>
+      <h4><li><food-item /></li></h4>
+      <h4><li><food-item /></li></h4>
+      <h4><li><food-item /></li></h4>
+      <h4><li><food-item /></li></h4>
+      <h4><li><food-item /></li></h4>
+      <h4><li><food-item /></li></h4>
+      <h4><li><food-item /></li></h4>
+      <h4><li><food-item /></li></h4>
+    </ol>
+  </div>
 </template>
 
-<style scoped></style>
+<style>
+  #app > div {
+    border: dotted black 1px;
+    display: inline-block;  
+    text-align: center;
+    margin-top:20px;
+    margin-left: 30%;
+    background-color: lightgreen;
+    padding:20px;
+  }
+
+  ol{
+    padding-right: 30px;
+  }
+</style>
