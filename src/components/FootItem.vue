@@ -1,16 +1,20 @@
 <template>
    <div>
-    {{ name }}   .............. {{ price }}
+    {{ foodName }} .............. {{ foodPrice }}
    </div>
 </template>
 
 <script>
     export default {
-        data() {
-            return {
-                name: 'Chips',
-                price: '$4.0'
-            }
-        }
+        props: [
+            'foodName',
+            'foodPrice'
+        ]
+        // data() {
+        //     return {
+        //         name: 'Chips',
+        //         price: '$4.0'
+        //     }
+        // }
     };
 </script>
