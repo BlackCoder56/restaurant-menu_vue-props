@@ -6,10 +6,15 @@
 
 <script>
     export default {
-        props: [
-            'foodName',
-            'foodPrice'
-        ]
+        // Props as an Object
+        props: {
+            foodName: String,
+            foodPrice: {
+                type: String,
+                required: true // Required Props
+            }
+        }
+        // props: ['foodName', 'foodPrice']
         // data() {
         //     return {
         //         name: 'Chips',
