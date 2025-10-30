@@ -20,6 +20,9 @@
       <h4><li>
         <food-item food-name="Cowpeas (with any food)" food-price="sh.6,000" />
       </li></h4>
+      <h4><li>
+        <food-item food-name="Vegetbles" />
+      </li></h4>
     </ol>
   </div>
 </template>
